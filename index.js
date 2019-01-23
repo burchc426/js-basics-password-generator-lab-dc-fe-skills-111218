@@ -25,7 +25,7 @@
 
 document.addEventListener("DOMContentLoaded", function (e) {
   let formEvent=document.getElementById("form")
-  formEvent.addEventListener("submit", function(e) {
+  formEvent.addEventListener("click", function(e) {
     e.preventDefault()
     let crab=document.getElementById('testy').value
     let testpw=generatePassword(crab);
